@@ -1,0 +1,10 @@
+<a href="/"><button>Home</button></a>
+<div class="container">
+    {{#each users}}
+        <div class="card">
+        <h1>{{id}} - {{nome}} {{sobrenome}} - {{idade}} anos</h1>
+        <h2 style="color:red">{{email}}</h2>
+        <h3 style="color:gray">Cadatrado em: {{createdAt}}</h3>
+        </div>
+    {{/each}}
+</div>
